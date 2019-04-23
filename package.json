@@ -1,0 +1,30 @@
+{
+  "name": "simple_web_crawler",
+  "version": "1.0.0",
+  "description": "simple node crawler",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rival6821/simple_web_crawler.git"
+  },
+  "author": "leeilhoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rival6821/simple_web_crawler/issues"
+  },
+  "homepage": "https://github.com/rival6821/simple_web_crawler#readme",
+  "dependencies": {
+    "cheerio-httpcli": "^0.7.4",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
